@@ -35,14 +35,17 @@ header{
 
 a:link {
     text-decoration: none;
-    color: darkgrey;
+    color: grey;
+
   }
 a:visited {
     text-decoration: none;
+    color: grey;
+
   }
 a:hover {
     text-decoration: underline;
-    color: grey;
+    color: lightgrey;
   }
 a:active {
     text-decoration: none;
@@ -127,6 +130,7 @@ input[type="submit"] {
     background-color:white;
     width:800px;
     margin:0 auto;
+    padding: 10px;
 }
 
 .portfolio-wrapper{
