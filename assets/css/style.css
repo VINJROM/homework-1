@@ -1,0 +1,156 @@
+head{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+header{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 75px;
+    border-bottom: 1px solid lightgrey;
+}
+
+/* About Page */
+.page-title{
+    display: inline-block;
+    font-size: 27px;
+    height: 65%;
+    padding: 13px 25px;
+    line-height: 100%;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-right: 368px;
+}
+
+.links{
+    color: grey;
+    display: inline-block;
+    height: 100%;
+    line-height: 46px;
+    text-align: right;
+    font-family: sans-serif;
+    margin-left: 40px;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgrey;
+  }
+a:visited {
+    text-decoration: none;
+  }
+a:hover {
+    text-decoration: underline;
+    color: grey;
+  }
+a:active {
+    text-decoration: none;
+  }
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+.project-wrapper{
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.project{
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+
+p{
+    line-height: 35px;
+    font-family: sans-serif;
+    color: grey
+}
+
+section{
+    background-color:#eee;
+    height:1000px;
+    padding:1px;
+}
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    padding: 12px 0px;
+    letter-spacing: 0.2px;
+    border-bottom: 1px solid lightgrey;
+    margin: 10px 10px 10px 20px;
+    text-align: left;
+}
+.main-content{
+    background-color:white;
+    width:800px;
+    margin:0 auto;
+}
+
+/* Contact Page */
+.form{
+    margin-left: 10px;
+}
+
+input[type=text], select {
+    width: 97%;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 97%;
+    margin: 10px;
+    padding: 10px 10px 100px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    margin-bottom: 10px;
+}
+
+/* Portfolio Page */
+.portfolio{
+    background-color:white;
+    width:800px;
+    margin:0 auto;
+}
+
+.portfolio-wrapper{
+    height: 600px;
+}
+
+h2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    padding: 12px 0px;
+    letter-spacing: 0.2px;
+    border-bottom: 1px solid lightgrey;
+    margin: 10px 10px 10px 20px;
+    text-align: left;
+}
+footer {
+background-color: #666;
+border-top: 4px solid #4aaaa5;
+position: fixed;
+bottom: 0;
+height: 50px;
+width: 100%;
+text-align: center;
+color: #aaa;
+line-height: 80px;
+font-size: 12px;
+}
